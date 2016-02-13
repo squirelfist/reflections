@@ -6,3 +6,9 @@ as a Git Repository
 you have to make the first commit yourself
 -you need to do it to et Git know that the directory should be treated as
 a repository and to enable version control and commits
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+-the staging area is a (possibly logical) contruct that houses the files in the working directory
+that are meant to be added to a repository using a commit
+-it is of benefit as it allows greater control and flexibility when choosing which files constitute a logical change
+and thus are eligible to be grouped together as a commit; rather than simply adding all files all the time
