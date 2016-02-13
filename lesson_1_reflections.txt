@@ -1,0 +1,45 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Well, it gave me a "side-by-side" comparison
+showing those lines that were different
+rather than searching manually which would have taken ages
+
+How could having easy access to the entire history of a file make you a more efficient programmer 
+in the long term?
+
+can easily compare od versions against each other
+easily see the evolution of a file or concept
+easily revert back to a previous version if you break something
+
+What do you think are the pros and cons of manually choosing when to create a commit, 
+like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+pros
+1. save meaningful (complete) changes
+
+cons
+1. may forget to save
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, 
+while others, like Google Docs, treat each file separately?
+
+-Version control systems like Google docs are single document focused in that each doc is treated as a 
+single unit of work or idea while in Git, various files comprise a single idea or workspace.
+-Google docs emulates MS Office like work flows that are single doc related with grouping via folders
+while Git emulates coder behaviour in which code files are interrelated and interdependent across
+folders, packages, assemblies, dlls etc
+
+How can you use the commands git log and git diff to view the history of files?
+
+-git log displays a list of all the commits including the commitID, date and author
+-git diff shows the changes in the files between two commits
+
+How might using version control make you more confident to make changes that could break something?
+
+-knowing that you can always revert to previous code that worked
+-and being able to compare your erroneous code with working code to see where something might have broken
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+-continue studying version control
+-use version control for current and future projects

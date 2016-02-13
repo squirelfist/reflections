@@ -1,0 +1,8 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+- Git creates the .git folder and establishes the current directory 
+as a Git Repository
+-Git does not, however, create a commit for you automatically
+you have to make the first commit yourself
+-you need to do it to et Git know that the directory should be treated as
+a repository and to enable version control and commits
