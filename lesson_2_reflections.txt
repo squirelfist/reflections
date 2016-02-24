@@ -12,3 +12,22 @@ How is the staging area different from the working directory and the repository?
 that are meant to be added to a repository using a commit
 -it is of benefit as it allows greater control and flexibility when choosing which files constitute a logical change
 and thus are eligible to be grouped together as a commit; rather than simply adding all files all the time
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+-The staging area allows you to control which files are added to the final commit, therefore you
+can control which files constitute a logical stage and make sure only those files are
+changed in the commit
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+-Branches assist in keeping track of parallel changes that are an offshoot of the main idea, project or product
+-A branch can signify a new experimental idea, and alternate verion such as a new language, etc
+
+How do the diagrams help you visualize the branch structure?
+
+-you can see the parenting structure of how each commit relates to another commit and to its branch
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+-manual would take too much time plus automatic brings conflicts to you attention.
